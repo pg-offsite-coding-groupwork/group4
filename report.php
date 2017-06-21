@@ -9,7 +9,7 @@ $url = Upload::save($_FILES['photo']);
 $report = Compass::upload($url);
 
 // 如果要调试这个接口的返回值，请将下面一行取消注释
-echo '<hr />';var_dump($report);echo '<hr />';//exit;
+// echo '<hr />';var_dump($report);echo '<hr />';exit;
 ?>
 <!DOCTYPE html>
 <html>
